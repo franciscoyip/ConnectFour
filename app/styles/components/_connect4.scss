@@ -1,0 +1,58 @@
+.arrow {
+  width: 0;
+  height: 0;
+  display: inline-block;
+
+  &.arrow-down {
+    border-left: $arrow-width solid transparent;
+    border-right: $arrow-width solid transparent;
+    border-top: $arrow-width solid $arrow-color;
+
+    &:hover {
+      border-top: $arrow-width solid $arrow-color-hover;
+    }
+  }
+}
+
+.connect-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.connect-table {
+  border-collapse: collapse;
+}
+
+.connect-cell {
+  display: table-cell;
+  width: 66px;
+  height: 66px;
+  border: 1px solid black;
+}
+
+.disc {
+  display: inline-block;
+  border-radius: 50%;
+  width: $disc-width;
+  height: $disc-height;
+
+  &.red {
+    background-color: $disc-red;
+  }
+
+  &.yellow {
+    background-color: $disc-yellow;
+  }
+}
+
+.connect-legend {
+  display: flex;
+
+  .disc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+  }
+}

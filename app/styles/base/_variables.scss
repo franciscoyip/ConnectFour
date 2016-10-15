@@ -1,0 +1,30 @@
+$grey: #333333;
+$light-grey: #fafafa;
+$light-grey-border: #eeeeee;
+$light-color: #aaaaaa;
+
+$white: #ffffff;
+
+$blue: #337ab7;
+$light-blue: #286090;
+
+$primary-red: #d96666;
+$primary-yellow: #ffeb79;
+
+// Navigation;
+$nav-background: $grey;
+$nav-text: $white;
+$nav-link-active: bold;
+$icon-width: 40px;
+
+// Connect 4 control
+$arrow-width: 20px;
+$arrow-color: $blue;
+$arrow-color-hover: $light-blue;
+
+//Connect 4 cell
+$disc-med: 60px;
+$disc-width: $disc-med;
+$disc-height: $disc-med;
+$disc-red: $primary-red;
+$disc-yellow: $primary-yellow;
