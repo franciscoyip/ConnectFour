@@ -1,6 +1,6 @@
-export var setSearchText = (searchText) => {
+export var setMessage = (message) => {
   return {
-    type: 'SET_SEARCH_TEXT',
-    searchText //eq to ES5 searchText:searchText
+    type: 'SET_MESSAGE',
+    message //eq to ES5 searchText:searchText
   }
 };

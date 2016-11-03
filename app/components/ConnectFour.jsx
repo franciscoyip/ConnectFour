@@ -1,7 +1,7 @@
 import React, { Component }from 'react';
 
-import Connect4Control from 'Connect4Control';
-import Connect4Board from 'Connect4Board';
+import Connect4Control from './Connect4Control';
+import Connect4Board from './Connect4Board';
 
 export default class ConnectFour extends Component {
   render() {

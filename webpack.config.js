@@ -25,13 +25,14 @@ module.exports = {
     modulesDirectories: [
       'node_modules',
       './app/components',
-      './app/api',
+      //'./app/api',
       './app/store'
     ],
     alias: {
       applicationStyles: 'app/styles/main.scss',
       actions: 'app/actions/actions.jsx',
-      reducers: 'app/reducers/reducers.jsx',
+      reducers: 'app/reducers/index.jsx',
+      //connect4Reducer: 'app/reducers/connect4Reducer.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

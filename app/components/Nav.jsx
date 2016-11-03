@@ -10,7 +10,7 @@ export default class Nav extends Component {
           <ul className="menu">
             <li className="menu-text">Connect Four</li>
             <li><IndexLink to="/" activeClassName="active-link">Game</IndexLink></li>
-            <li><Link to="/ranking">Ranking</Link></li>
+            <li><Link to="/ranking" activeClassName="active-link">Ranking</Link></li>
           </ul>
         </div>
         <div className="top-bar-right">

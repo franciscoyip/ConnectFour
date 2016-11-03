@@ -1,14 +1,11 @@
 var redux = require('redux');
 var thunk = require('redux-thunk').default;
-var {searchTextReducer, todosReducer} = require('reducers');
+var rootReducer = require('reducers').default;
 
 export var configure = (initialState={})=>{
-  var reducer = redux.combineReducers({
-    searchText: searchTextReducer,
-  });
 
   //weird
-  var store = redux.createStore(reducer, initialState, redux.compose(
+  var store = redux.createStore(rootReducer, initialState, redux.compose(
     redux.applyMiddleware(thunk),
     window.devToolsExtension ? window.devToolsExtension() : f => f
   ));
